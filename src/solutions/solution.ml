@@ -6,6 +6,7 @@ let choose_solver year day : (module Solver) =
       let open Solvers2025 in
       match day with
       | "0" -> (module Day0.Solver)
+      | "1" -> (module Day1.Solver)
       | _ -> failwith "Ni še rešeno")
   | _ -> failwith "Neveljavno leto"
 

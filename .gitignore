@@ -4,3 +4,4 @@ _build
 aoc.exe
 solution.exe
 tests.ipynb
+python_solutions.py
